@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nback-trainer"
+version = "1.0.0"
+description = "A command-line dual N-Back cognitive training game for improving working memory"
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    {name = "N-Back Trainer Team"}
+]
+keywords = [
+    "n-back",
+    "cognitive",
+    "training",
+    "memory",
+    "game",
+    "cli",
+    "terminal",
+    "brain-training",
+    "working-memory",
+    "dual-n-back"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: POSIX",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Games/Entertainment :: Puzzle Games",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Education",
+    "Environment :: Console",
+]
+
+[project.urls]
+Homepage = "https://github.com/rlogger/nback"
+Repository = "https://github.com/rlogger/nback"
+Issues = "https://github.com/rlogger/nback/issues"
+
+[project.scripts]
+nback = "nback_game.nback:main"
+nback-trainer = "nback_game.nback:main"
+
+[tool.setuptools]
+packages = ["nback_game"]
+
+[tool.setuptools.package-data]
+nback_game = ["*.py"]
