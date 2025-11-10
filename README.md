@@ -1,24 +1,24 @@
-# 🧠 Dual N-Back Trainer
+# Dual N-Back Trainer
 
 A beautiful, feature-rich command-line implementation of the dual N-Back working memory task. This game helps improve working memory and cognitive function by requiring players to track both visual positions and colors from N steps back in sequences.
 
 [![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## ✨ Features
+## Features
 
-- 🎯 **Dual N-Back Training** - Track both position and color sequences
-- 🎨 **Beautiful Terminal UI** - Colorful, polished interface with Unicode box-drawing characters
-- 📊 **Progress Tracking** - Real-time accuracy and score display with progress bars
-- 🏆 **High Score System** - Persistent high score tracking across sessions
-- ⚙️ **Customizable Settings** - Adjustable difficulty, grid size, trials, and timing
-- 🎮 **Interactive Menu** - Easy-to-use menu system for configuration
-- 💾 **Auto-save Scores** - Automatically saves your best performances
-- ⌨️ **Keyboard Controls** - Simple, intuitive keyboard-only interface
-- 🌈 **Visual Feedback** - Color-coded feedback and performance ratings
-- 📈 **Performance Ratings** - Get rated from "Try Again" to "Outstanding!"
+- **Dual N-Back Training** - Track both position and color sequences
+- **Beautiful Terminal UI** - Colorful, polished interface with Unicode box-drawing characters
+- **Progress Tracking** - Real-time accuracy and score display with progress bars
+- **High Score System** - Persistent high score tracking across sessions
+- **Customizable Settings** - Adjustable difficulty, grid size, trials, and timing
+- **Interactive Menu** - Easy-to-use menu system for configuration
+- **Auto-save Scores** - Automatically saves your best performances
+- **Keyboard Controls** - Simple, intuitive keyboard-only interface
+- **Visual Feedback** - Color-coded feedback and performance ratings
+- **Performance Ratings** - Get rated from "Try Again" to "Outstanding!"
 
-## 📦 Installation
+## Installation
 
 ### From PyPI (Recommended)
 
@@ -42,7 +42,7 @@ cd nback
 pip install -e .[dev]
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Launch the Game
 
@@ -66,7 +66,7 @@ You can start a game directly with custom settings:
 nback -n 3 -g 6 -t 40 -d 1.5
 ```
 
-## 🎮 Usage
+## Usage
 
 ### Interactive Menu
 
@@ -106,7 +106,7 @@ nback -n 2 -g 8 -t 30
 nback -n 5 -g 9 -t 60 -d 1.5
 ```
 
-## ⌨️ Controls
+## Controls
 
 | Key | Action |
 |-----|--------|
@@ -117,7 +117,7 @@ nback -n 5 -g 9 -t 60 -d 1.5
 | `S` | View high scores |
 | `Q` | Quit to menu |
 
-## 📖 How to Play
+## How to Play
 
 ### What is Dual N-Back?
 
@@ -145,7 +145,7 @@ For each trial, you must identify if the current position and/or color matches t
 4. **Progression**: Increase N value when you consistently score >80%
 5. **Stay relaxed**: Don't stress about mistakes, they're part of learning
 
-## 🎯 Scoring
+## Scoring
 
 - **Correct match**: +1 point (or +2 for both matches)
 - **Missed match**: No points deducted
@@ -154,24 +154,24 @@ For each trial, you must identify if the current position and/or color matches t
 
 ### Performance Ratings
 
-- ⭐ **Try Again**: < 40%
-- ⭐⭐ **Keep Practicing**: 40-59%
-- ⭐⭐⭐ **Good Job**: 60-74%
-- ⭐⭐⭐⭐ **Excellent**: 75-89%
-- ⭐⭐⭐⭐⭐ **Outstanding**: 90%+
+- * **Try Again**: < 40%
+- ** **Keep Practicing**: 40-59%
+- *** **Good Job**: 60-74%
+- **** **Excellent**: 75-89%
+- ***** **Outstanding**: 90%+
 
-## 🔧 Requirements
+## Requirements
 
 - **Python**: 3.7 or higher
 - **OS**: Linux, macOS, or any POSIX-compliant system
 - **Terminal**: ANSI color support (most modern terminals)
 - **Dependencies**: Python standard library only!
 
-## 📊 High Scores
+## High Scores
 
 High scores are automatically saved to `~/.nback_scores.json` and tracked per configuration (N-value and grid size). View your best performances anytime from the menu or press `S` during gameplay.
 
-## 🛠️ Development
+## Development
 
 ### Building for PyPI
 
@@ -206,21 +206,21 @@ nback/
 └── .gitignore
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Inspired by the original N-Back research on working memory training
 - Built with Python's standard library for maximum compatibility
 - Thanks to the cognitive science community for N-Back research
 
-## 📚 Research
+## Research
 
 The N-Back task has been studied extensively in cognitive psychology:
 
@@ -229,16 +229,16 @@ The N-Back task has been studied extensively in cognitive psychology:
 - Strengthens executive function
 - Potentially improves attention and concentration
 
-## 🐛 Bug Reports & Feature Requests
+## Bug Reports & Feature Requests
 
 Please report bugs and request features via the [GitHub Issues](https://github.com/rlogger/nback/issues) page.
 
-## 📮 Contact
+## Contact
 
 For questions or feedback, please open an issue on GitHub.
 
 ---
 
-**Made with ❤️ for cognitive enhancement enthusiasts**
+**Made for cognitive enhancement enthusiasts**
 
-Happy Training! 🧠💪
+Happy Training!
