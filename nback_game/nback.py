@@ -72,8 +72,8 @@ SYMBOLS = {
     "CHECK": "✓",
     "CROSS": "✗",
     "STAR": "★",
-    "TROPHY": "🏆",
-    "BRAIN": "🧠",
+    "TROPHY": "†",
+    "BRAIN": "*",
 }
 
 
